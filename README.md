@@ -15,10 +15,10 @@ Parameters:
 ## Usage:
 
 - To do a test run against WSUS Server without SSL
-`Decline-UpdatesByArch.ps1 -UpdateServer SERVERNAME -Port 8530 -Arch x86 -SkipDecline`
+ `Decline-UpdatesByArch.ps1 -UpdateServer SERVERNAME -Port 8530 -Arch x86 -SkipDecline`
 
 - To do a test run against WSUS Server using SSL
-`Decline-UpdatesByArch.ps1 -UpdateServer SERVERNAME -UseSSL -Port 8531 -Arch x86 -SkipDecline`
+ `Decline-UpdatesByArch.ps1 -UpdateServer SERVERNAME -UseSSL -Port 8531 -Arch x86 -SkipDecline`
 
 - To decline all specific-Arch updates on the WSUS Server using SSL
-`Decline-UpdatesByArch.ps1 -UpdateServer SERVERNAME -UseSSL -Port 8531 -Arch x86`
+ `Decline-UpdatesByArch.ps1 -UpdateServer SERVERNAME -UseSSL -Port 8531 -Arch x86`
